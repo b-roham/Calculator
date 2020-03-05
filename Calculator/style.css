@@ -1,0 +1,112 @@
+html{
+	background-color: #242729;
+	color: white;
+	font-family: sans-serif;
+}
+
+body{
+	color: white;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.title{
+	text-align: center;
+	margin: 0 auto;
+	border-bottom: white 10px double;
+}
+
+.add{
+	border-bottom: white 10px double;
+}
+
+#addbtn{
+	padding: 16px 35px;
+	background-color: #4CAF50;
+	color: white;
+	font-family: sans-serif;
+}
+
+.clear{
+	padding: 16px 31px;
+	background-color: #4CAF50;
+	color: white;
+	font-family: sans-serif;
+}
+
+#mult{
+	background-color: #242729;
+	color: white;
+	font-size: 50px;
+	padding: 20px 30px;
+	margin: 0 auto;
+}
+#subt{
+	background-color: #242729;
+	color: white;
+	font-size: 50px;
+	padding: 20px 30px;
+	margin: 0 auto;
+}
+#adder{
+	background-color: #242729;
+	color: white;
+	font-size: 50px;
+	padding: 20px 30px;
+	margin: 0 auto;
+}
+#divis{
+	background-color: #242729;
+	color: white;
+	font-size: 50px;
+	padding: 20px 30px;
+	margin: 0 auto;
+}
+
+#pass{
+	border-bottom: white 10px double;
+}
+#login{
+	padding: 16px 35px;
+	background-color: #4CAF50;
+	color: white;
+	font-family: sans-serif;
+}
+#circle{
+	background-color: #242729;
+	color: white;
+	font-size: 20px;
+	padding: 20px 30px;
+	margin: 0 auto;
+}
+#circlev{
+	background-color: #242729;
+	color: white;
+	font-size: 20px;
+	padding: 20px 30px;
+	margin: 0 auto;
+}
+
+#trianglea{
+	background-color: #242729;
+	color: white;
+	font-size: 20px;
+	padding: 20px 30px;
+	margin: 0 auto;
+}
+
+#squarea{
+	background-color: #242729;
+	color: white;
+	font-size: 20px;
+	padding: 20px 30px;
+	margin: 0 auto;
+}
+
+#side{
+	background-color: #242729;
+	color: white;
+	font-size: 20px;
+	padding: 20px 30px;
+	margin: 0 auto;
+}

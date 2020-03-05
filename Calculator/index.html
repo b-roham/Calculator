@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Jaden's Personal Calculator</title>
+		<link rel="icon" href="favicon.png" type="imgage/png" sizes="16x16">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+		<div class="pass" id='pass'>
+			<h3 id='thistoo'>Log in</h3>
+			<input id='user' class="user" placeholder="Name: Case Sensetive"></input>
+			<br>
+			<input id='password' type="password" class="password" placeholder="Password: Case Sensetive"></input>
+			<br>
+			<button id='login' class="login">Log in</button>
+			<br>
+			<br>
+			<span id='logintxt2'></span>
+			<br>
+			<p></p>
+		</div>
+		<div class="container" id='container'>
+			<div class="title" id='title'>
+				<h1>Calculator</h1>
+				<h2>This Site Uses 3.14 As Pi</h2>
+				<h3><em>Coded by Jaden Baird in HTML, CSS and JavaScript</em></h3>
+				<h4 id='logintxt'>You are not logged in</h4>
+			</div>
+			<div class="add" id='add'>
+				<h4 id='txt'>Addition</h4>
+				<textarea id="addend1" placeholder="Number 1"></textarea>
+				<textarea id="addend2" placeholder="Number 2"></textarea>
+				<br>
+				<p>Mode: <span id='modetext'>Addition</span>
+				<p id='answer'></p>
+				<br>
+				<button id='addbtn' class="addbtn">Add</button>
+				<button id='clear' class="clear">Clear</button>
+				<br>
+				<p></p>
+			</div>
+			<div class="mode" id='mode'>
+				<h4>Mode Selection</h4>
+				<button id='mult'>x</button>
+				<button id='adder'>+</button>
+				<button id='divis'>÷</button>
+				<button id='subt'>−</button>
+				<br>
+				<button id='circle'>Area of a circle</button>
+				<button id='circlev'>Volume of a cylinder</button>
+				<button id='trianglea'>Area of a triangle</button>
+				<button id='squarea'>Area of a square</button>
+				<button id='side'>Pythagoream Theorem</button>
+			</div>	
+		</div>
+    <script src="script.js"></script>
+  </body>
+</html>
